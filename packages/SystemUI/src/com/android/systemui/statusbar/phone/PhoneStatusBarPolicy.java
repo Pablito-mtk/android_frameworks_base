@@ -133,8 +133,8 @@ public class PhoneStatusBarPolicy implements Callback {
                 updateTTY(intent);
             }
              else if (action.equals(Intent.ACTION_HEADSET_PLUG)) {
-+               updateHeadset(intent);
-+           }
+               updateHeadset(intent);
+            }
             else if (action.equals(BluetoothHeadset.ACTION_VENDOR_SPECIFIC_HEADSET_EVENT)) {
                 updateBluetoothBattery(intent);
             }
